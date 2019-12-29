@@ -79,7 +79,7 @@ def apply_coupons(cart, coupons)
 end
 
 def apply_clearance(cart)
-  # REMEMBER: This method *should* update the cart
+  # REMEMBER: This method should update the cart
   idx = 0 
   
   while idx < cart.length
