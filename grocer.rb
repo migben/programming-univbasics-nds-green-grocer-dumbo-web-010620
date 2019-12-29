@@ -66,7 +66,9 @@ def apply_coupons(cart, coupons)
     if item_in_cart && enough_items
       
       item_with_coupon[:count] -= coupon[:num]
+      
       coupon_item = coupons_hash(coupon)
+      
       coupon_item[:clearance] = item_with_coupon[:clearance]
       cart.push(coupon_item)
       
