@@ -70,6 +70,7 @@ def apply_coupons(cart, coupons)
       coupon_item = coupons_hash(coupon)
       
       coupon_item[:clearance] = item_with_coupon[:clearance]
+      
       cart.push(coupon_item)
       
     end
