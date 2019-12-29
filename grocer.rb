@@ -1,5 +1,4 @@
-# Thanks for limiting the amount of comments within the file.
-
+# Done, while listening to Alexander Hamilton play tracks
 def find_item_by_name_in_collection(name, collection)
   
   collection.each {|unit|
