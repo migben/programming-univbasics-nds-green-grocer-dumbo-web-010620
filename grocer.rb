@@ -119,7 +119,7 @@ def checkout(cart, coupons)
 
   while idx < cons_cart.length
     
-    total_checkout += cons_cart[idx][:price] cons_cart[idx][:count]
+    total_checkout += cons_cart[idx][:price]* cons_cart[idx][:count]
     
     idx += 1
   end
